@@ -32,7 +32,7 @@ project-root/
 To compile the project, use the following command:
 
 ```bash
-javac -d bin ./src/test/java/com/abccompany/AppTest.java -cp ./lib/junit-4.13.2.jar
+javac -d bin ./src/test/java/com/abccompany/AppTest.java ./src/main/java/com/abccompany/App.java -cp ./lib/junit-4.13.2.jar
 ```
 
 This command compiles the `AppTest.java` file located in `./src/test/com/abccompany/` directory and places the compiled classes in the `bin` directory. It also includes the JUnit library in the classpath.
@@ -53,7 +53,7 @@ If you're using Visual Studio Code for development, you can add the following se
 
 ```json
 {
-    "java.project.sourcePaths": ["./src/main/java"],
+    "java.project.sourcePaths": ["./src/main/java",".src/test/java"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "./lib/**/*.jar"
