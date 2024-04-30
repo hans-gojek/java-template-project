@@ -1,4 +1,4 @@
-package test.com.abccompany;
+package com.abccompany;
 
 import static org.junit.Assert.assertEquals;
 
