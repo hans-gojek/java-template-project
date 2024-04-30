@@ -53,10 +53,10 @@ If you're using Visual Studio Code for development, you can add the following se
 
 ```json
 {
-    "java.project.sourcePaths": ["src/main/java"],
+    "java.project.sourcePaths": ["./src/main/java"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "./lib/**/*.jar"
     ]
 }
 ```
